@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes Care</title>
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <header>
+      <nav class="navigation">
+        <a href="#" class="logo">Shoecare</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+          <li><a href="#home" onclick="toggleMenu();">Beranda</a></li>
+          <li><a href="#about" onclick="toggleMenu();">Tentang</a></li>
+          <li><a href="#services" onclick="toggleMenu();">Layanan</a></li>
+          <li><a href="#contact" onclick="toggleMenu();">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- CONTENT -->
+    <main>
+      <div class="content">
+        <!-- HOME -->
+        <article class="home">
+          <section class="background_home" id="home">
+            <div class="text">
+              <h2>Perawatan dan<br /><span>Pembersihan Sepatu.</span></h2>
+              <h3>
+                Kami merupakan pilihan terbaik untuk merawat barang kesayangan
+                Anda.
+              </h3>
+              <a href="#services" class="btn_home">Layanan Kami</a>
+            </div>
+          </section>
+        </article>
+
+        <!-- ABOUT -->
+        <article class="about">
+          <section id="about">
+            <div class="title_about">
+              <h2>Tentang Kami</h2>
+              <p>
+                Shoes Care merupakan jasa perawatan premium sepatu yang pertama
+                di Jepara yang berbasis media sosial. Untuk melayani pelanggan,
+                saat ini Shoes Care sudah memiliki 70 workshop di 29 kota di
+                Indonesia. Berdiri di Jepara, Shoes Care mulai memberikan
+                perawatan sepatu sejak 29 Juli 2002. Kami secara profesional
+                menangani perawatan sepatu, tas, dan topi dengan teknik khusus,
+                serta menggunakan alat dan bahan premium untuk menjaga kualitas
+                perawatan dan barang kesayangan Anda.
+              </p>
+            </div>
+            <div class="title_content">
+              <h2>
+                tim kami<span>
+                  memberikan layanan perawatan sepatu secara profesional.</span
+                >
+              </h2>
+            </div>
+          </section>
+        </article>
+
+        <!-- SERVICES -->
+        <article class="services">
+          <section id="services">
+            <div class="content_services">
+              <div class="title_services">
+                <h2>Layanan Kami</h2>
+                <p>
+                  Layanan kami mencakup perawatan tas, perawatan sepatu, dan
+                  topi.
+                </p>
+              </div>
+              <div class="box_services">
+                <div>
+                  <img src="./assets/images/icons/bag-services.svg" alt="" />
+                </div>
+                <div>
+                  <img src="./assets/images/icons/shoes-services.svg" alt="" />
+                </div>
+                <div>
+                  <img src="./assets/images/icons/cap-services.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!-- ASIDE -->
+        <aside class="contact">
+          <section id="contact">
+            <div class="title_contact">
+              <h2>Kontak Kami</h2>
+              <p>
+                Untuk informasi lebih lanjut, jangan ragu untuk menghubungi kami
+                melalui email.
+              </p>
+            </div>
+            <div class="content_contact">
+              <div class="info_contact">
+                <h3>Pemilik</h3>
+                <figure class="profile">
+                  <img src="./assets/images/profile.jpg" alt="Profile" />
+                </figure>
+              </div>
+
+              <div class="identity">
+                <div class="box">
+                  <div class="text">
+                    <h3>Nama</h3>
+                    <p>Muhammad Fadhil Abyansyah</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="text">
+                    <h3>Email</h3>
+                    <p>infofadhil29@gmail.com</p>
+                    <p>f078xb129@dicoding.org</p>
+                    <p>111202012544@mhs.dinus.ac.id</p>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="text">
+                    <h3>Alamat</h3>
+                    <p>
+                      Jl. dulu No. 10, Kec. Kenangan, Kab. Jepara, <br />
+                      Jawa Tengah
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form">
+                <form>
+                  <h3>Hubungi Kami</h3>
+                  <input type="text" name="" placeholder="Nama Lengkap" />
+                  <input type="email" name="" placeholder="Email" />
+                  <textarea placeholder="Pesan"></textarea>
+                  <input type="submit" value="Kirim" />
+                </form>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="copyright">
+      <p>Copyright 2023 Shoecare. All Right Reserved</p>
+    </footer>
+
+    <!-- SCRIPT JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
